@@ -12,14 +12,15 @@ The project is organized as two Jupyter notebooks:
 - [Housing.csv](Housing.csv) — main dataset
 - [tp1.ipynb](tp1.ipynb) — exploratory data analysis
 - [tp2.ipynb](tp2.ipynb) — visual analysis and correlations
-- [requerments.txt](requerments.txt) — Python dependencies
+- [requirements.txt](requirements.txt) — Python dependencies
 - [README.md](README.md) — project documentation
 
 ## Dataset Overview
 
 The dataset contains **545 rows** and **13 columns**.
 
-### Numerical features
+### Numerical Features
+
 - `price`
 - `area`
 - `bedrooms`
@@ -27,7 +28,8 @@ The dataset contains **545 rows** and **13 columns**.
 - `stories`
 - `parking`
 
-### Categorical features
+### Categorical Features
+
 - `mainroad`
 - `guestroom`
 - `basement`
@@ -45,11 +47,11 @@ From the analysis in [tp1.ipynb](tp1.ipynb) and [tp2.ipynb](tp2.ipynb):
 - The mean house price is about **4,766,729**.
 - The median house price is **4,340,000**.
 - There is a **moderate positive correlation** between `area` and `price`:
-  
+
   $$r \approx 0.536$$
 
 - There is a **weak positive correlation** between `bedrooms` and `price`:
-  
+
   $$r \approx 0.366$$
 
 - Houses with **air conditioning** tend to be more expensive.
@@ -69,11 +71,32 @@ This project uses:
 - Seaborn
 - Jupyter Notebook
 
-Dependencies are listed in [requerments.txt](requerments.txt).
+Dependencies are listed in [requirements.txt](requirements.txt).
 
 ## Installation
 
-Create and activate a Python environment, then install the dependencies:
+### 1. Clone the repository
 
-````bash
-pip install -r [requerments.txt](http://_vscodecontentref_/5)
+```bash
+git clone https://github.com/issamsensi/Data-Mining-Tp.git
+cd Data-Mining-Tp
+```
+
+### 2. Install dependencies
+
+It is recommended to use a virtual environment:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+
+## Author
+
+Issam Sensi
+
+## Portfolio
+
+[issamsensi.com](https://issamsensi.com)
