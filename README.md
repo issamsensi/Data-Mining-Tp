@@ -1,8 +1,7 @@
-hello there, this is my readme and ai will help me to generate it
 # Housing Data Mining Project
 
 A small data mining project based on the housing dataset in [Housing.csv](Housing.csv).  
-The project is organized as two Jupyter notebooks:
+The project is organized into two Jupyter notebooks:
 
 - [tp1.ipynb](tp1.ipynb): dataset exploration and descriptive statistics
 - [tp2.ipynb](tp2.ipynb): data visualization and relationship analysis
@@ -63,8 +62,6 @@ From the analysis in [tp1.ipynb](tp1.ipynb) and [tp2.ipynb](tp2.ipynb):
 
 ## Technologies Used
 
-This project uses:
-
 - Python
 - Pandas
 - Matplotlib
@@ -92,6 +89,21 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
+## Run the Notebooks
+
+```bash
+jupyter notebook
+```
+
+Then open:
+
+- `tp1.ipynb`
+- `tp2.ipynb`
+
+## House Pricing Model
+
+I also built a simple **scikit-learn Linear Regression** model to predict house prices using this dataset.  
+You can find it here: [HousePricing](https://github.com/issamsensi/HousePricing)
 
 ## Author
 
